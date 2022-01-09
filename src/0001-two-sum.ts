@@ -6,7 +6,7 @@ const twoSum = (nums: number[], target: number): number[] => {
     const remaining = target - value;
 
     if (map.has(remaining)) {
-      return [map.get(remaining) as number, i]
+      return [map.get(remaining) as number, i];
     }
     map.set(value, i);
   }
