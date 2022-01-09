@@ -1,9 +1,6 @@
 {
   "jest.jestCommandLine": "node_modules/.bin/jest",
-  "jest.autoRun": {
-    "watch": false,
-    "onSave": "test-src-file"
-  },
+  "jest.autoRun": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
