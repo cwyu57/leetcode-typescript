@@ -18,4 +18,12 @@ describe('0001-two-sum', () => {
     const output = [0, 2];
     expect(twoSum(input.nums, input.target)).toEqual(output);
   });
+
+  it('case 3', () => {
+    const input = {
+      nums: [3, 7, 3],
+      target: 7,
+    };
+    expect(() => twoSum(input.nums, input.target)).toThrow('Bad Input');
+  });
 });
