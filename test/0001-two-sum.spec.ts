@@ -1,4 +1,4 @@
-import twoSum from './index';
+import twoSum from '../src/0001-two-sum';
 
 describe('0001-two-sum', () => {
   it('case 1', () => {
